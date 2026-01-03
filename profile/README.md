@@ -1,137 +1,126 @@
 # RP-Alpha
 
 <div align="center">
-  <h3>Modern, Open-Source FiveM Resources</h3>
-  <p>Compatible with <strong>QB-Core</strong> | <strong>QBOX</strong> | <strong>OX_CORE</strong></p>
+
+![Suite Release](https://img.shields.io/github/v/release/RP-Alpha/rp-alpha-suite?style=for-the-badge&logo=github&label=Suite&color=blue)
+![Total Downloads](https://img.shields.io/github/downloads/RP-Alpha/rp-alpha-suite/total?style=for-the-badge&logo=github&color=green)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
+![Repos](https://img.shields.io/badge/Resources-20+-purple?style=for-the-badge)
+
+### Modern, Open-Source FiveM Resources
+
+**Compatible with QB-Core | QBOX | OX_CORE**
+
+[![Download Suite](https://img.shields.io/badge/Download-Full%20Suite-success?style=for-the-badge&logo=download)](https://github.com/RP-Alpha/rp-alpha-suite/releases/latest)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rpalpha)
+
 </div>
 
 ---
 
 ## 📦 Available Resources
 
-| Resource | Description | Status |
-|----------|-------------|--------|
-| **[rpa-lib](https://github.com/RP-Alpha/rpa-lib)** | Core library & framework bridge (Required) | ✅ Stable |
-| **[rpa-notify](https://github.com/RP-Alpha/rpa-notify)** | Modern glassmorphism notifications | ✅ Stable |
-| **[rpa-textui](https://github.com/RP-Alpha/rpa-textui)** | Clean interaction prompts | ✅ Stable |
-| **[rpa-blips](https://github.com/RP-Alpha/rpa-blips)** | Config-based map blip manager | ✅ Stable |
-| **[rpa-spawn](https://github.com/RP-Alpha/rpa-spawn)** | Spawn selector with skycam | ✅ Stable |
-| **[rpa-appearance](https://github.com/RP-Alpha/rpa-appearance)** | Appearance system bridge | ✅ Stable |
-| **[rpa-fuel](https://github.com/RP-Alpha/rpa-fuel)** | Target-based fuel system | ✅ Stable |
-| **[rpa-banking](https://github.com/RP-Alpha/rpa-banking)** | Modern banking UI | ✅ Stable |
-| **[rpa-shops](https://github.com/RP-Alpha/rpa-shops)** | Config-driven shop system | ✅ Stable |
-| **[rpa-consumables](https://github.com/RP-Alpha/rpa-consumables)** | Food, drinks, alcohol, smokeables | ✅ Stable |
-| **[rpa-garages](https://github.com/RP-Alpha/rpa-garages)** | Vehicle storage & retrieval | ✅ Stable |
-| **[rpa-housing](https://github.com/RP-Alpha/rpa-housing)** | Shell-based property system | ✅ Stable |
-| **[rpa-vehiclekeys](https://github.com/RP-Alpha/rpa-vehiclekeys)** | Vehicle lock/unlock & engine control | ✅ Stable |
-| **[rpa-tuning](https://github.com/RP-Alpha/rpa-tuning)** | Vehicle mod shop with RGB neons | ✅ Stable |
-| **[rpa-dispatch](https://github.com/RP-Alpha/rpa-dispatch)** | Emergency dispatch system | ✅ Stable |
-| **[rpa-mdt](https://github.com/RP-Alpha/rpa-mdt)** | Mobile Data Terminal | ✅ Stable |
-| **[rpa-police](https://github.com/RP-Alpha/rpa-police)** | Police job with evidence system | ✅ Stable |
-| **[rpa-ambulance](https://github.com/RP-Alpha/rpa-ambulance)** | EMS job with revive mechanics | ✅ Stable |
-| **[rpa-cityhall](https://github.com/RP-Alpha/rpa-cityhall)** | Licenses & government services | ✅ Stable |
-| **[rpa-jobs](https://github.com/RP-Alpha/rpa-jobs)** | Civilian jobs with XP system | ✅ Stable |
+### Core
+| Resource | Description | Release |
+|----------|-------------|---------|
+| [rpa-lib](https://github.com/RP-Alpha/rpa-lib) | Framework bridge & utilities | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-lib?style=flat-square) |
+| [rpa-notify](https://github.com/RP-Alpha/rpa-notify) | Glassmorphism notifications | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-notify?style=flat-square) |
+| [rpa-textui](https://github.com/RP-Alpha/rpa-textui) | Interaction prompts | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-textui?style=flat-square) |
+| [rpa-blips](https://github.com/RP-Alpha/rpa-blips) | Map blip manager | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-blips?style=flat-square) |
+
+### Player Systems
+| Resource | Description | Release |
+|----------|-------------|---------|
+| [rpa-spawn](https://github.com/RP-Alpha/rpa-spawn) | Spawn selector with skycam | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-spawn?style=flat-square) |
+| [rpa-appearance](https://github.com/RP-Alpha/rpa-appearance) | Appearance system bridge | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-appearance?style=flat-square) |
+| [rpa-consumables](https://github.com/RP-Alpha/rpa-consumables) | Food, drinks, alcohol | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-consumables?style=flat-square) |
+
+### Economy
+| Resource | Description | Release |
+|----------|-------------|---------|
+| [rpa-banking](https://github.com/RP-Alpha/rpa-banking) | Modern banking UI | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-banking?style=flat-square) |
+| [rpa-shops](https://github.com/RP-Alpha/rpa-shops) | Config-driven shops | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-shops?style=flat-square) |
+| [rpa-fuel](https://github.com/RP-Alpha/rpa-fuel) | Target-based fuel system | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-fuel?style=flat-square) |
+
+### Vehicles
+| Resource | Description | Release |
+|----------|-------------|---------|
+| [rpa-garages](https://github.com/RP-Alpha/rpa-garages) | Vehicle storage | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-garages?style=flat-square) |
+| [rpa-vehiclekeys](https://github.com/RP-Alpha/rpa-vehiclekeys) | Key system | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-vehiclekeys?style=flat-square) |
+| [rpa-tuning](https://github.com/RP-Alpha/rpa-tuning) | Mod shop with RGB neons | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-tuning?style=flat-square) |
+
+### Properties
+| Resource | Description | Release |
+|----------|-------------|---------|
+| [rpa-housing](https://github.com/RP-Alpha/rpa-housing) | Shell-based housing | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-housing?style=flat-square) |
+
+### Emergency Services
+| Resource | Description | Release |
+|----------|-------------|---------|
+| [rpa-dispatch](https://github.com/RP-Alpha/rpa-dispatch) | Alert system | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-dispatch?style=flat-square) |
+| [rpa-mdt](https://github.com/RP-Alpha/rpa-mdt) | Mobile Data Terminal | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-mdt?style=flat-square) |
+| [rpa-police](https://github.com/RP-Alpha/rpa-police) | Police job + evidence | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-police?style=flat-square) |
+| [rpa-ambulance](https://github.com/RP-Alpha/rpa-ambulance) | EMS job | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-ambulance?style=flat-square) |
+
+### Civilian
+| Resource | Description | Release |
+|----------|-------------|---------|
+| [rpa-cityhall](https://github.com/RP-Alpha/rpa-cityhall) | Licenses & gov services | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-cityhall?style=flat-square) |
+| [rpa-jobs](https://github.com/RP-Alpha/rpa-jobs) | Jobs with XP system | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-jobs?style=flat-square) |
 
 ---
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- A FiveM server running **QB-Core**, **QBOX**, or **OX_CORE**
-- **oxmysql** (recommended)
-- **ox_target** or **qb-target** (for interaction prompts)
+```cfg
+# Core (REQUIRED FIRST)
+ensure rpa-lib
+ensure rpa-notify
+ensure rpa-textui
+ensure rpa-blips
 
-### Installation
+# Player
+ensure rpa-spawn
+ensure rpa-appearance
+ensure rpa-consumables
 
-1. **Download** the resources you need from the links above.
+# Economy
+ensure rpa-banking
+ensure rpa-shops
+ensure rpa-fuel
 
-2. **Extract** each resource to your server's `resources` folder.
+# Vehicles
+ensure rpa-garages
+ensure rpa-vehiclekeys
+ensure rpa-tuning
 
-3. **Add to server.cfg** in this order:
-   ```cfg
-   # Core (REQUIRED FIRST)
-   ensure rpa-lib
+# Properties
+ensure rpa-housing
 
-   # UI Systems
-   ensure rpa-notify
-   ensure rpa-textui
-   ensure rpa-blips
-
-   # Player Systems
-   ensure rpa-spawn
-   ensure rpa-appearance
-   ensure rpa-consumables
-
-   # Economy
-   ensure rpa-banking
-   ensure rpa-shops
-   ensure rpa-fuel
-
-   # Vehicles
-   ensure rpa-garages
-   ensure rpa-vehiclekeys
-   ensure rpa-tuning
-
-   # Properties
-   ensure rpa-housing
-
-   # Jobs
-   ensure rpa-jobs
-   ensure rpa-police
-   ensure rpa-ambulance
-   ensure rpa-dispatch
-   ensure rpa-mdt
-   ensure rpa-cityhall
-   ```
-
-4. **Configure** each resource via its `config.lua` file.
-
-5. **Restart** your server.
+# Jobs
+ensure rpa-jobs
+ensure rpa-police
+ensure rpa-ambulance
+ensure rpa-dispatch
+ensure rpa-mdt
+ensure rpa-cityhall
+```
 
 ---
 
-## 📥 Full Suite Download
+## 🌐 Framework Support
 
-Want everything at once? Download the complete **RP-Alpha Suite** from our [Releases](https://github.com/RP-Alpha/rp-alpha-suite/releases) page.
-
----
-
-## 🔧 Configuration
-
-Each resource includes a `config.lua` with sensible defaults. Common options:
-
-| Option | Description |
-|--------|-------------|
-| `Config.Debug` | Enable debug prints |
-| `Config.Locale` | Language for notifications (default: `'en'`) |
-| `Config.Framework` | Auto-detected, but can be forced |
-
-Refer to individual resource READMEs for specific configuration options.
-
----
-
-## 🌐 Framework Compatibility
-
-RP-Alpha automatically detects and bridges to your framework:
-
-| Framework | Support Level |
-|-----------|---------------|
-| QB-Core | ✅ Full |
-| QBOX | ✅ Full |
-| OX_CORE | ✅ Full |
-
----
-
-## 🤝 Support
-
-- **Issues**: [GitHub Issues](https://github.com/RP-Alpha/.github/issues)
-- **Discord**: Coming Soon
+| Framework | Status |
+|-----------|--------|
+| QB-Core | ✅ Full Support |
+| QBOX | ✅ Full Support |
+| OX_CORE | ✅ Full Support |
 
 ---
 
 ## 📄 License
 
-All RP-Alpha resources are released under the **MIT License**. Free to use, modify, and distribute.
+All resources are MIT Licensed. Free to use, modify, and distribute.
 
 ---
 
