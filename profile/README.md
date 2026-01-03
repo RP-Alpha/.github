@@ -1,120 +1,140 @@
 # RP-Alpha
 
-**RP-Alpha** is a modern development collective dedicated to engineering high-quality, open-source resources for the FiveM roleplay community. We bridge the gap between complex functionality and ease of use, ensuring compatibility across major frameworks (QB-Core, QBOX, OX_CORE).
-
-### Mission Statement
-To empower server owners and developers with robust, modern, and accessible tools that elevate the standard of FiveM roleplay cities.
-
-### Core Values
-1.  **Open Source First**: Transparency, collaboration, and knowledge sharing.
-2.  **Modern Standards**: Utilizing contemporary Lua/JS practices and performance optimization.
-3.  **Simplicity & Flexibility**: Plug-and-play resources with deep customization.
-4.  **Community Driven**: Building *with* the community, not just for them.
+<div align="center">
+  <h3>Modern, Open-Source FiveM Resources</h3>
+  <p>Compatible with <strong>QB-Core</strong> | <strong>QBOX</strong> | <strong>OX_CORE</strong></p>
+</div>
 
 ---
 
-## Organizational Structure
+## 📦 Available Resources
 
-### Core Team Roles
-The organization operates with a flat hierarchy that emphasizes responsibility over rank.
-
-#### **Project Lead(s)**
-*   **Responsibilities**: Strategic vision, high-level roadmap planning, final decision on architectural standards, conflict resolution.
-*   **Focus**: Maintaining the "RP-Alpha Mindset" and ensuring project cohesion.
-
-#### **Core Developers**
-*   **Responsibilities**: Implementation of core resources, code review, maintaining framework compatibility layers, security auditing.
-*   **Focus**: Writing clean, performant, and secure code (Lua/JS/SQL).
-
-#### **Documentation & Support Specialists**
-*   **Responsibilities**: Maintaining READMEs, creating Wikis, managing community support channels (Discord/GitHub), writing tutorials.
-*   **Focus**: Reducing the barrier to entry for end-users.
-
-#### **Community Managers**
-*   **Responsibilities**: Gathering feedback, managing release announcements, fostering the developer ecosystem.
-*   **Focus**: Bridge between the user base and the dev team.
-
----
-
-## Operational Workflow
-
-### Development Lifecycle
-We follow a strict **Plan -> Develop -> Test -> Document -> Release** cycle.
-
-1.  **Ideation & RFCs (Request for Comments)**
-    *   New features or resources start as an Issue or RFC in GitHub.
-    *   Must define: Problem to solve, Framework impact, Config needs.
-
-2.  **Development Standards**
-    *   **Naming**: Resources prefixed with `rpa-` (e.g., `rpa-banking`).
-    *   **Code**: Adherence to the RP-Alpha Style Guide (CamelCase, specific event naming conventions).
-    *   **Compatibility**: All core logic must be abstracted to support QB/QBOX/OX via a unified bridge.
-
-3.  **Quality Assurance (QA)**
-    *   **Automated**: Linting (LuaCheck) and rigid syntax verification.
-    *   **Manual**: Tested on "Clean" server instances of **QB-Core** and **QBOX**. We do not perform direct manual testing on OX_CORE, though we maintain code-level compatibility where possible.
-    *   **Performance**: 0.00ms idle requirement for client scripts; optimized database queries (batching).
-
-4.  **Release Protocol**
-    *   Semantic Versioning (1.0.0).
-    *   Changelog generation.
-    *   Release tags on GitHub.
-
-### Repository Management
-*   **GitHub Organization**: All repositories are hosted under the **RP-Alpha** GitHub Organization.
-*   **Monorepo vs Polyrepo**: We utilize individual repositories for major resources to allow modular adoption, with a central "manifest" or "pack" repo for full-suite users.
-*   **Branching**: `main` is stable. Feature branches (`feat/xyz`) for development.
+| Resource | Description | Status |
+|----------|-------------|--------|
+| **[rpa-lib](https://github.com/RP-Alpha/rpa-lib)** | Core library & framework bridge (Required) | ✅ Stable |
+| **[rpa-notify](https://github.com/RP-Alpha/rpa-notify)** | Modern glassmorphism notifications | ✅ Stable |
+| **[rpa-textui](https://github.com/RP-Alpha/rpa-textui)** | Clean interaction prompts | ✅ Stable |
+| **[rpa-blips](https://github.com/RP-Alpha/rpa-blips)** | Config-based map blip manager | ✅ Stable |
+| **[rpa-spawn](https://github.com/RP-Alpha/rpa-spawn)** | Spawn selector with skycam | ✅ Stable |
+| **[rpa-appearance](https://github.com/RP-Alpha/rpa-appearance)** | Appearance system bridge | ✅ Stable |
+| **[rpa-fuel](https://github.com/RP-Alpha/rpa-fuel)** | Target-based fuel system | ✅ Stable |
+| **[rpa-banking](https://github.com/RP-Alpha/rpa-banking)** | Modern banking UI | ✅ Stable |
+| **[rpa-shops](https://github.com/RP-Alpha/rpa-shops)** | Config-driven shop system | ✅ Stable |
+| **[rpa-consumables](https://github.com/RP-Alpha/rpa-consumables)** | Food, drinks, alcohol, smokeables | ✅ Stable |
+| **[rpa-garages](https://github.com/RP-Alpha/rpa-garages)** | Vehicle storage & retrieval | ✅ Stable |
+| **[rpa-housing](https://github.com/RP-Alpha/rpa-housing)** | Shell-based property system | ✅ Stable |
+| **[rpa-vehiclekeys](https://github.com/RP-Alpha/rpa-vehiclekeys)** | Vehicle lock/unlock & engine control | ✅ Stable |
+| **[rpa-tuning](https://github.com/RP-Alpha/rpa-tuning)** | Vehicle mod shop with RGB neons | ✅ Stable |
+| **[rpa-dispatch](https://github.com/RP-Alpha/rpa-dispatch)** | Emergency dispatch system | ✅ Stable |
+| **[rpa-mdt](https://github.com/RP-Alpha/rpa-mdt)** | Mobile Data Terminal | ✅ Stable |
+| **[rpa-police](https://github.com/RP-Alpha/rpa-police)** | Police job with evidence system | ✅ Stable |
+| **[rpa-ambulance](https://github.com/RP-Alpha/rpa-ambulance)** | EMS job with revive mechanics | ✅ Stable |
+| **[rpa-cityhall](https://github.com/RP-Alpha/rpa-cityhall)** | Licenses & government services | ✅ Stable |
+| **[rpa-jobs](https://github.com/RP-Alpha/rpa-jobs)** | Civilian jobs with XP system | ✅ Stable |
 
 ---
 
-## Product Strategy & Roadmap
+## 🚀 Quick Start
 
-### Phase 1: Core Essentials & UI
-*   **Goal**: Establish the base infrastructure and visual language.
-*   **Deliverables**:
-    *   `rpa-lib`: Shared bridge for Frameworks, Notify, TextUI, and target systems.
-    *   `rpa-notify` / `rpa-textui`: Standalone options (with support for external resources like Brutal/RTX).
-    *   `rpa-blips`: Centralized blip management configuration.
-    *   `rpa-spawn` & `rpa-appearance`: Modern entry-points for players.
+### Prerequisites
+- A FiveM server running **QB-Core**, **QBOX**, or **OX_CORE**
+- **oxmysql** (recommended)
+- **ox_target** or **qb-target** (for interaction prompts)
 
-### Phase 2: Economy & Assets
-*   **Goal**: Robustness for the server's financial and asset backbone.
-*   **Deliverables**:
-    *   `rpa-fuel`: Legacy and target-based fueling systems.
-    *   `rpa-banking`: Clean UI banking, society management, and logs.
-    *   `rpa-shops`: Unified system for Player-owned and AI-run shops.
-    *   `rpa-consumables`: Food, drink, and item usability handler.
-    *   `rpa-garages`: Vehicle storage and management.
-    *   `rpa-housing`: Instanced and shell-based property systems.
+### Installation
 
-### Phase 3: Gameplay Loop & Services
-*   **Goal**: Specialized jobs and government systems.
-*   **Deliverables**:
-    *   `rpa-dispatch` & `rpa-mdt`: Integrated emergency services suite.
-    *   `rpa-police` & `rpa-ambulance`: Full-featured service jobs including AI Medic options.
-    *   `rpa-cityhall`: Licensing and government jobs.
-    *   `rpa-trucking` & `rpa-jobs`: Generic and specialized civ jobs.
+1. **Download** the resources you need from the links above.
+
+2. **Extract** each resource to your server's `resources` folder.
+
+3. **Add to server.cfg** in this order:
+   ```cfg
+   # Core (REQUIRED FIRST)
+   ensure rpa-lib
+
+   # UI Systems
+   ensure rpa-notify
+   ensure rpa-textui
+   ensure rpa-blips
+
+   # Player Systems
+   ensure rpa-spawn
+   ensure rpa-appearance
+   ensure rpa-consumables
+
+   # Economy
+   ensure rpa-banking
+   ensure rpa-shops
+   ensure rpa-fuel
+
+   # Vehicles
+   ensure rpa-garages
+   ensure rpa-vehiclekeys
+   ensure rpa-tuning
+
+   # Properties
+   ensure rpa-housing
+
+   # Jobs
+   ensure rpa-jobs
+   ensure rpa-police
+   ensure rpa-ambulance
+   ensure rpa-dispatch
+   ensure rpa-mdt
+   ensure rpa-cityhall
+   ```
+
+4. **Configure** each resource via its `config.lua` file.
+
+5. **Restart** your server.
 
 ---
 
-## Community & Contribution
+## 📥 Full Suite Download
 
-### Contribution Model
-*   **"Good First Issues"**: Tagged for new contributors to get involved.
-*   **Pull Request Policy**:
-    *   Must pass CI checks.
-    *   Requires 1 Core Dev review.
-    *   Must update relevant documentation.
-
-### Support Channels
-*   **GitHub Issues**: For bug reports and technical feature requests.
-*   **Discord**: For general support, showcases, and community discussion.
+Want everything at once? Download the complete **RP-Alpha Suite** from our [Releases](https://github.com/RP-Alpha/rp-alpha-suite/releases) page.
 
 ---
 
-## Technology Stack
-*   **Backend**: Lua 5.4 (FiveM), NodeJS (where necessary for heavy IO).
-*   **Frontend**: React/Vue/Svelte (built to static HTML/JS) or standard NUI.
-*   **Data**: SQL (OxMySQL wrapper).
-*   **UI Library**: Mantine or similar for consistent, modern aesthetics.
-*   **Integrations**: Native compatibility with popular community tools (e.g., BrutalNotify, BrutalTextUI, rtx_notify, etc.) via `rpa-lib` bridges.
+## 🔧 Configuration
+
+Each resource includes a `config.lua` with sensible defaults. Common options:
+
+| Option | Description |
+|--------|-------------|
+| `Config.Debug` | Enable debug prints |
+| `Config.Locale` | Language for notifications (default: `'en'`) |
+| `Config.Framework` | Auto-detected, but can be forced |
+
+Refer to individual resource READMEs for specific configuration options.
+
+---
+
+## 🌐 Framework Compatibility
+
+RP-Alpha automatically detects and bridges to your framework:
+
+| Framework | Support Level |
+|-----------|---------------|
+| QB-Core | ✅ Full |
+| QBOX | ✅ Full |
+| OX_CORE | ✅ Full |
+
+---
+
+## 🤝 Support
+
+- **Issues**: [GitHub Issues](https://github.com/RP-Alpha/.github/issues)
+- **Discord**: Coming Soon
+
+---
+
+## 📄 License
+
+All RP-Alpha resources are released under the **MIT License**. Free to use, modify, and distribute.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by the RP-Alpha Community</sub>
+</div>
