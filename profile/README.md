@@ -26,7 +26,7 @@
 | [rpa-lib](https://github.com/RP-Alpha/rpa-lib) | Framework bridge & utilities | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-lib?style=flat-square) |
 | [rpa-notify](https://github.com/RP-Alpha/rpa-notify) | Glassmorphism notifications | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-notify?style=flat-square) |
 | [rpa-textui](https://github.com/RP-Alpha/rpa-textui) | Interaction prompts | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-textui?style=flat-square) |
-| [rpa-blips](https://github.com/RP-Alpha/rpa-blips) | Map blip manager | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-blips?style=flat-square) |
+| [rpa-blips](https://github.com/RP-Alpha/rpa-blips) | Dynamic blips with admin menu | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-blips?style=flat-square) |
 
 ### Player Systems
 | Resource | Description | Release |
@@ -39,7 +39,7 @@
 | Resource | Description | Release |
 |----------|-------------|---------|
 | [rpa-banking](https://github.com/RP-Alpha/rpa-banking) | Modern banking UI | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-banking?style=flat-square) |
-| [rpa-shops](https://github.com/RP-Alpha/rpa-shops) | Config-driven shops | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-shops?style=flat-square) |
+| [rpa-shops](https://github.com/RP-Alpha/rpa-shops) | Shop system with categories & player-owned | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-shops?style=flat-square) |
 | [rpa-fuel](https://github.com/RP-Alpha/rpa-fuel) | Target-based fuel system | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-fuel?style=flat-square) |
 
 ### Vehicles
@@ -47,7 +47,7 @@
 |----------|-------------|---------|
 | [rpa-garages](https://github.com/RP-Alpha/rpa-garages) | Vehicle storage | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-garages?style=flat-square) |
 | [rpa-vehiclekeys](https://github.com/RP-Alpha/rpa-vehiclekeys) | Key system | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-vehiclekeys?style=flat-square) |
-| [rpa-tuning](https://github.com/RP-Alpha/rpa-tuning) | Mod shop with RGB neons | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-tuning?style=flat-square) |
+| [rpa-tuning](https://github.com/RP-Alpha/rpa-tuning) | Mechanic shops + handling tuning | ![Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-tuning?style=flat-square) |
 
 ### Properties
 | Resource | Description | Release |
